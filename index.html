@@ -9,28 +9,28 @@
     <!-- Font preloads -->
     <link
       rel="preload"
-      href="/_astro/inter-latin-400-normal.BT1H-PT_.woff2"
+      href="/src/inter-latin-400-normal.BT1H-PT_.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="/_astro/inter-latin-600-normal.B2Ssfs8e.woff2"
+      href="/src/inter-latin-600-normal.B2Ssfs8e.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="/_astro/lora-latin-400-normal.CvHVDnm4.woff2"
+      href="/src/lora-latin-400-normal.CvHVDnm4.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="/_astro/lora-latin-600-normal.DUWh3m6k.woff2"
+      href="/src/lora-latin-600-normal.DUWh3m6k.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -39,7 +39,7 @@
     <link rel="canonical" href="https://astro-nano-demo.vercel.app/" />
     <!-- Primary Meta Tags -->
     <title>Home | msk1039</title>
-    <meta name="title" content="Home | Kewonit" />
+    <meta name="title" content="Home | msk1039" />
     <meta
       name="description"
       content="A place to write some blogs, also a portfolio-ish website."
@@ -47,7 +47,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://astro-nano-demo.vercel.app/" />
-    <meta property="og:title" content="Home | Kewonit" />
+    <meta property="og:title" content="Home | msk1039" />
     <meta
       property="og:description"
       content="A place to write some blogs, also a portfolio-ish website."
@@ -62,7 +62,7 @@
       property="twitter:url"
       content="https://astro-nano-demo.vercel.app/"
     />
-    <meta property="twitter:title" content="Home | Kewonit" />
+    <meta property="twitter:title" content="Home | msk1039" />
     <meta
       property="twitter:description"
       content="A place to write some blogs, also a portfolio-ish website."
@@ -188,8 +188,8 @@
       document.addEventListener("astro:after-swap", () => init());
       preloadTheme();
     </script>
-    <link rel="stylesheet" href="/_astro/_slug_.BhmHyIKL.css" />
-    <script type="module" src="/_astro/hoisted.IxFg9jpS.js"></script>
+    <link rel="stylesheet" href="/src/_slug_.BhmHyIKL.css" />
+    <script type="module" src="/src/hoisted.IxFg9jpS.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -205,7 +205,7 @@
           </a>
           <nav class="flex gap-1">
             <a
-              href="/blog"
+              href="./blog.html"
               target="_self"
               class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
             >
@@ -213,7 +213,7 @@
             </a>
             <span> / </span>
             <a
-              href="/work"
+              href="./work.html"
               target="_self"
               class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
             >
@@ -221,7 +221,7 @@
             </a>
             <span> / </span>
             <a
-              href="/projects"
+              href="./projects.html"
               target="_self"
               class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
             >
@@ -252,7 +252,7 @@
                 Latest posts
               </h5>
               <a
-                href="/blog"
+                href="./blog.html"
                 target="_self"
                 class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
               >
@@ -328,7 +328,7 @@
                 Experience
               </h5>
               <a
-                href="/work"
+                href="./work.html"
                 target="_self"
                 class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
               >
@@ -375,7 +375,7 @@
                 Recent projects
               </h5>
               <a
-                href="/projects"
+                href="./projects.html"
                 target="_self"
                 class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
               >
@@ -413,7 +413,7 @@
                   </svg>
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a
                   href="/projects/project-7"
                   class="relative group flex flex-nowrap py-3 px-4 pr-10 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
@@ -474,7 +474,7 @@
                     ></polyline>
                   </svg>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </section>
           <section class="animate space-y-4">
@@ -488,10 +488,10 @@
             <ul class="flex flex-wrap gap-2">
               <li class="flex gap-x-2 text-nowrap">
                 <a
-                  href="https://reddit.com/kewkartik"
+                  href="#"
                   target="_blank"
                   class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
-                  aria-label="Kewonit on reddit"
+                  aria-label="msk1039 on reddit"
                 >
                   reddit
                 </a>
@@ -499,10 +499,10 @@
               </li>
               <li class="flex gap-x-2 text-nowrap">
                 <a
-                  href="https://github.com/kewonit"
+                  href="https://github.com/msk1039"
                   target="_blank"
                   class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
-                  aria-label="Kewonit on github"
+                  aria-label="msk1039 on github"
                 >
                   github
                 </a>
@@ -510,10 +510,10 @@
               </li>
               <li class="flex gap-x-2 text-nowrap">
                 <a
-                  href="https://www.twitter.com/kewkartik"
+                  href="#"
                   target="_blank"
                   class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
-                  aria-label="Kewonit on twitter"
+                  aria-label="msk1039 on twitter"
                 >
                   twitter
                 </a>
@@ -524,7 +524,7 @@
                   href="/cdn-cgi/l/email-protection#264b434951664d435149484f52085243454e"
                   target="_self"
                   class="inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out underline underline-offset-2"
-                  aria-label="Email Kewonit"
+                  aria-label="Email msk1039"
                 >
                   <span
                     class="__cf_email__"
@@ -568,7 +568,7 @@
           </div>
         </div>
         <div class="flex justify-between items-center">
-          <div>Kewonit &lt;3</div>
+          <div>msk1039 &lt;3</div>
           <div class="flex flex-wrap gap-1 items-center">
             <button
               id="light-theme-button"
